@@ -1,6 +1,13 @@
 ---
 tags:
   - plugin
+resource_link: "https://www.redguides.com/community/resources/mq2dannet.322/"
+support_link: "https://www.redguides.com/community/threads/mq2dannet.67218/"
+repository: "https://github.com/dannuic/MQ2Dan"
+config: "MQ2DanNet.ini"
+authors: "dannuic, Knightly, plure"
+tagline: "A serverless peer networking plugin, allowing you to control and monitor several characters at once."
+quick_start: "https://www.youtube.com/watch?v=_bmDEgyXZEg"
 ---
 # MQ2DanNet
 <!--desc-start-->
@@ -75,211 +82,211 @@ A fully-qualified name is `<server>_<character>`, but if you only intend to comm
 
 <a href="cmd-djoin/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-djoin.md" 
+  include-markdown "projects/mq2dannet/cmd-djoin.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-djoin.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-djoin.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-djoin.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-djoin.md') }}
 
 <a href="cmd-dleave/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dleave.md" 
+  include-markdown "projects/mq2dannet/cmd-dleave.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dleave.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dleave.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dleave.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dleave.md') }}
 
 <a href="cmd-dtell/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dtell.md" 
+  include-markdown "projects/mq2dannet/cmd-dtell.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dtell.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dtell.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dtell.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dtell.md') }}
 
 <a href="cmd-dgtell/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgtell.md" 
+  include-markdown "projects/mq2dannet/cmd-dgtell.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgtell.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgtell.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgtell.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgtell.md') }}
 
 <a href="cmd-dexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dexecute.md') }}
 
 <a href="cmd-dgexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dgexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgexecute.md') }}
 
 <a href="cmd-dggexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dggexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dggexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dggexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dggexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dggexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dggexecute.md') }}
 
 <a href="cmd-dgrexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgrexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dgrexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgrexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgrexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgrexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgrexecute.md') }}
 
 <a href="cmd-dgzexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgzexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dgzexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgzexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgzexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgzexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgzexecute.md') }}
 
 <a href="cmd-dgaexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgaexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dgaexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgaexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgaexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgaexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgaexecute.md') }}
 
 <a href="cmd-dggaexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dggaexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dggaexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dggaexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dggaexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dggaexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dggaexecute.md') }}
 
 <a href="cmd-dgraexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgraexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dgraexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgraexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgraexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgraexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgraexecute.md') }}
 
 <a href="cmd-dgzaexecute/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dgzaexecute.md" 
+  include-markdown "projects/mq2dannet/cmd-dgzaexecute.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dgzaexecute.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dgzaexecute.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dgzaexecute.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dgzaexecute.md') }}
 
 <a href="cmd-dnet/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dnet.md" 
+  include-markdown "projects/mq2dannet/cmd-dnet.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dnet.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dnet.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dnet.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dnet.md') }}
 
 <a href="cmd-dobserve/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dobserve.md" 
+  include-markdown "projects/mq2dannet/cmd-dobserve.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dobserve.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dobserve.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dobserve.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dobserve.md') }}
 
 <a href="cmd-dquery/">
 {% 
-  include-markdown "plugins/community-plugins/mq2dannet/cmd-dquery.md" 
+  include-markdown "projects/mq2dannet/cmd-dquery.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2dannet/cmd-dquery.md" 
+:    {% include-markdown "projects/mq2dannet/cmd-dquery.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2dannet/cmd-dquery.md') }}
+     %} {{ readMore('projects/mq2dannet/cmd-dquery.md') }}
 
 ## EQBC to DanNet Cheat Sheets
 
@@ -324,8 +331,8 @@ If you're used to [MQ2EQBC](../mq2eqbc/index.md) and are looking for similar usa
 ## TLO Members
 DanNet adds [DanNet](tlo-dannet.md) with the following members. See [Queries](#queries) for use.
 
-{% include-markdown "plugins/community-plugins/mq2dannet/datatype-dannet.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-{% include-markdown "plugins/community-plugins/mq2dannet/datatype-dannet.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+{% include-markdown "projects/mq2dannet/datatype-dannet.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+{% include-markdown "projects/mq2dannet/datatype-dannet.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
 
 ## INI Entries (MQ2DanNet.ini)
 

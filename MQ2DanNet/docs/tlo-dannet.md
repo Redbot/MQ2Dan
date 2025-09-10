@@ -21,15 +21,15 @@ Holds datatypes for DanNet that can query fellow peers and provide information o
 ## Associated DataTypes
 <!--tlo-datatypes-start-->
 ## [`DanNet`](datatype-dannet.md)
-{% include-markdown "plugins/community-plugins/mq2dannet/datatype-dannet.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('plugins/community-plugins/mq2dannet/datatype-dannet.md') }}
+{% include-markdown "projects/mq2dannet/datatype-dannet.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('projects/mq2dannet/datatype-dannet.md') }}
 :    <h3>Members</h3>
-    {% include-markdown "plugins/community-plugins/mq2dannet/datatype-dannet.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-    {% include-markdown "plugins/community-plugins/mq2dannet/datatype-dannet.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+    {% include-markdown "projects/mq2dannet/datatype-dannet.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+    {% include-markdown "projects/mq2dannet/datatype-dannet.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
 ## [`DanObservation`](datatype-danobservation.md)
-{% include-markdown "plugins/community-plugins/mq2dannet/datatype-danobservation.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('plugins/community-plugins/mq2dannet/datatype-danobservation.md') }}
+{% include-markdown "projects/mq2dannet/datatype-danobservation.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('projects/mq2dannet/datatype-danobservation.md') }}
 :    <h3>Members</h3>
-    {% include-markdown "plugins/community-plugins/mq2dannet/datatype-danobservation.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-    {% include-markdown "plugins/community-plugins/mq2dannet/datatype-danobservation.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+    {% include-markdown "projects/mq2dannet/datatype-danobservation.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+    {% include-markdown "projects/mq2dannet/datatype-danobservation.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
     <!--tlo-datatypes-end-->
 
     <!--tlo-linkrefs-start-->

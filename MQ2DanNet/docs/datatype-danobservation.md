@@ -17,5 +17,5 @@ Holds information on when a query was last received
 <!--dt-members-end-->
 
 <!--dt-linkrefs-start-->
-[int64]: ../../../reference/data-types/datatype-int64.md
+[int64]: ../macroquest/reference/data-types/datatype-int64.md
 <!--dt-linkrefs-end-->

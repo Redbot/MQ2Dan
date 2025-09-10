@@ -145,9 +145,9 @@ Holds members that return information on peers as well as settings
 !!! note "Both `Observe` and `Query` are their own data types, which provide a `Received` member to determine the last received timestamp, or 0 for never received. Used like `${DanNet.Q.Received}`"
 
 <!--dt-linkrefs-start-->
-[bool]: ../../../reference/data-types/datatype-bool.md
+[bool]: ../macroquest/reference/data-types/datatype-bool.md
 [danobservation]: datatype-danobservation.md
-[int]: ../../../reference/data-types/datatype-int.md
-[int64]: ../../../reference/data-types/datatype-int64.md
-[string]: ../../../reference/data-types/datatype-string.md
+[int]: ../macroquest/reference/data-types/datatype-int.md
+[int64]: ../macroquest/reference/data-types/datatype-int64.md
+[string]: ../macroquest/reference/data-types/datatype-string.md
 <!--dt-linkrefs-end-->
