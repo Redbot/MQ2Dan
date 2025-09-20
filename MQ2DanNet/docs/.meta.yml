@@ -1,0 +1,5 @@
+docs_repository: "https://github.com/Redbot/MQ2Dan"
+docs_edit_uri: "edit/docs-dir/"
+docs_path_transform:
+  from: "projects/mq2dannet/"
+  to: "MQ2DanNet/docs/"
