@@ -283,7 +283,7 @@ A fully-qualified name is `<server>_<character>`, but if you only intend to comm
 
 ## EQBC to DanNet Cheat Sheets
 
-If you're used to [MQ2EQBC](../mq2eqbc/index.md) and are looking for similar usage with DanNet, here are some concepts/commands that are similar:
+If you're used to [MQ2EQBC](../mq2eqbc/README.md) and are looking for similar usage with DanNet, here are some concepts/commands that are similar:
 
 === "Channels vs Groups"
 
