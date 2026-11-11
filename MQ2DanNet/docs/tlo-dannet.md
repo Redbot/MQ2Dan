@@ -10,11 +10,12 @@ Holds datatypes for DanNet that can query fellow peers and provide information o
 
 ## Forms
 <!--tlo-forms-start-->
-### {{ renderMember(type='DanNet', name='DanNet') }}
+/// member | DanNet DanNet
+///
  
-### {{ renderMember(type='DanNet', name='DanNet', params='peer') }}
-
-:   Will provide information on the specified peer when used with certain members, such as "Observe". e.g. `${DanNet[peer_name].Observe[query]}`
+/// member | DanNet DanNet[peer]
+Will provide information on the specified peer when used with certain members, such as "Observe". e.g. `${DanNet[peer_name].Observe[query]}`
+///
 
 <!--tlo-forms-end-->
 

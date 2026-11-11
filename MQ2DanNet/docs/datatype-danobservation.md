@@ -10,9 +10,9 @@ Holds information on when a query was last received
 
 ## Members
 <!--dt-members-start-->
-### {{ renderMember(type='int64', name='Received') }}
-
-:   Timestamp of last received query or observation, e.g. `${DanNet.Query.Received}`<br />You can get a more specific result by providing the query and peer, e.g. `${DanNet[tankname].Query[Me.PctHPs].Received}` or `${DanNet[clericname].Observe[Target.ID].Received}`
+/// member | int64 Received
+Timestamp of last received query or observation, e.g. `${DanNet.Query.Received}`<br />You can get a more specific result by providing the query and peer, e.g. `${DanNet[tankname].Query[Me.PctHPs].Received}` or `${DanNet[clericname].Observe[Target.ID].Received}`
+///
 
 <!--dt-members-end-->
 

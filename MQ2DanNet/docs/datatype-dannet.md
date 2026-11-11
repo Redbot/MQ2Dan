@@ -10,135 +10,135 @@ Holds members that return information on peers as well as settings
 
 ## Members
 <!--dt-members-start-->
-### {{ renderMember(type='string', name='Name') }}
+/// member | string Name
+current node name (fully qualified)
+///
 
-:   current node name (fully qualified)
+/// member | string Version
+current build version
+///
 
-### {{ renderMember(type='string', name='Version') }}
+/// member | bool Debug
+debugging flag
+///
 
-:   current build version
+/// member | bool LocalEcho
+local echo flag (outgoing echo)
+///
 
-### {{ renderMember(type='bool', name='Debug') }}
+/// member | bool CommandEcho
+command echo (incoming commands)
+///
 
-:   debugging flag
+/// member | bool FullNames
+print fully qualified names
+///
 
-### {{ renderMember(type='bool', name='LocalEcho') }}
+/// member | bool FrontDelim
+use a front `|` delimiter in arrays
+///
 
-:   local echo flag (outgoing echo)
+/// member | bool ShowGroups
+show groups?
+///
 
-### {{ renderMember(type='bool', name='CommandEcho') }}
+/// member | string Timeout
+timeout for implicit delay in `/dquery` and `/dobserve` commands
+///
 
-:   command echo (incoming commands)
+/// member | int ObserveDelay
+delay between observe broadcasts (in ms)
+///
 
-### {{ renderMember(type='bool', name='FullNames') }}
+/// member | int Evasive
+time to classify a peer as evasive (in ms)
+///
 
-:   print fully qualified names
+/// member | bool EvasiveRefresh
+if evasiverefresh is on
+///
 
-### {{ renderMember(type='bool', name='FrontDelim') }}
+/// member | int Expired
+keepalive time for non-responding peers (in ms)
+///
 
-:   use a front `|` delimiter in arrays
+/// member | int Keepalive
+keepalive time for local actor pipe (in ms)
+///
 
-### {{ renderMember(type='bool', name='ShowGroups') }}
+/// member | int PeerCount
+number of connected peers
+///
 
-:   show groups?
+/// member | string Peers
+List of connected peers
+///
 
-### {{ renderMember(type='string', name='Timeout') }}
+/// member | string Peers[GroupName]
+List of connected peers in the ${GroupName} group.
+///
 
-:   timeout for implicit delay in `/dquery` and `/dobserve` commands
+/// member | int GroupCount
+number of all groups
+///
 
-### {{ renderMember(type='int', name='ObserveDelay') }}
+/// member | string Groups
+list of all groups (this includes hidden groups used internally! use Joined if you want only groups that are visible)
+///
 
-:   delay between observe broadcasts (in ms)
+/// member | int JoinedCount
+number of joined groups
+///
 
-### {{ renderMember(type='int', name='Evasive') }}
+/// member | string Joined
+list of joined groups
+///
 
-:   time to classify a peer as evasive (in ms)
+/// member | DanObservation Observe[query]
+observe accessor, accessed like: `${DanNet[peer_name].Observe[query]}`
 
-### {{ renderMember(type='bool', name='EvasiveRefresh') }}
+- short version: O  
+- if no indices are specified, lists all queries observers have registered  
+- if only the query is specified, list all peers that have registered that query as an observer on self  
+- if only the peer is specified, list all queries that self has registered on peer  
+- if fully specified, attempt to retrieve the data specified on the remote peer  
+///
 
-:   if evasiverefresh is on
+/// member | int ObserveCount
+short version: OCount  
 
-### {{ renderMember(type='int', name='Expired') }}
+- count observed data on peer, or count observers on self if no peer is specified
+///
 
-:   keepalive time for non-responding peers (in ms)
+/// member | bool ObserveSet
+short version: OSet  
 
-### {{ renderMember(type='int', name='Keepalive') }}
+- determine if query has been set as observed data on peer, or as an observer on self if no peer specified
+///
 
-:   keepalive time for local actor pipe (in ms)
+/// member | int64 ObserveReceived[query]
+Returns timestamp of last received observation.   
 
-### {{ renderMember(type='int', name='PeerCount') }}
+- short version: OReceived
+///
 
-:   number of connected peers
+/// member | DanObservation Query
+query accessor, for last executed query  
 
-### {{ renderMember(type='string', name='Peers') }}
+- short version: Q
+///
 
-:   List of connected peers
+/// member | DanObservation Query[query]
+If both peer and query indexes are provided, will return the specific query result. e.g. `${DanNet[mytank].Q[Me.PctHPs]}` If either index is missing, it will return the result of the last query.  
 
-### {{ renderMember(type='string', name='Peers', params='GroupName') }}
+- short version: Q
+///
 
-:   List of connected peers in the ${GroupName} group.
+/// member | int64 QueryReceived[query]
+Returns the timestamp of last received query. 
 
-### {{ renderMember(type='int', name='GroupCount') }}
-
-:   number of all groups
-
-### {{ renderMember(type='string', name='Groups') }}
-
-:   list of all groups (this includes hidden groups used internally! use Joined if you want only groups that are visible)
-
-### {{ renderMember(type='int', name='JoinedCount') }}
-
-:   number of joined groups
-
-### {{ renderMember(type='string', name='Joined') }}
-
-:   list of joined groups
-
-### {{ renderMember(type='DanObservation', name='Observe', params='query') }}
-
-:   observe accessor, accessed like: `${DanNet[peer_name].Observe[query]}`
-
-    - short version: O  
-    - if no indices are specified, lists all queries observers have registered  
-    - if only the query is specified, list all peers that have registered that query as an observer on self  
-    - if only the peer is specified, list all queries that self has registered on peer  
-    - if fully specified, attempt to retrieve the data specified on the remote peer  
-
-### {{ renderMember(type='int', name='ObserveCount') }}
-
-:   short version: OCount  
-
-    - count observed data on peer, or count observers on self if no peer is specified
-
-### {{ renderMember(type='bool', name='ObserveSet') }}
-
-:   short version: OSet  
-
-    - determine if query has been set as observed data on peer, or as an observer on self if no peer specified
-
-### {{ renderMember(type='int64', name='ObserveReceived', params='query') }}
-
-:   Returns timestamp of last received observation.   
-
-    - short version: OReceived
-
-### {{ renderMember(type='DanObservation', name='Query') }}
-
-:   query accessor, for last executed query  
-
-    - short version: Q
-
-### {{ renderMember(type='DanObservation', name='Query', params='query') }}
-
-:   If both peer and query indexes are provided, will return the specific query result. e.g. `${DanNet[mytank].Q[Me.PctHPs]}` If either index is missing, it will return the result of the last query.  
-
-    - short version: Q
-
-### {{ renderMember(type='int64', name='QueryReceived', params='query') }}
-
-:   Returns the timestamp of last received query. 
-
-    - short version: QReceived
+- short version: QReceived
+///
 
 <!--dt-members-end-->
 ## Note
